@@ -7,7 +7,7 @@ COPY src/hello-world.go /go/hello-world.go
 # Set the default environment variables
 ENV MESSAGE "Welcome! From WebHook"
 
-ENV MESSAGE "Welcome! builds-lab."
+ENV MESSAGE "Welcome! builds-lab 1"
 ENV HOME /go
 
 # Set permissions to the /go folder (for OpenShift)
