@@ -6,7 +6,7 @@ COPY src/hello-world.go /go/hello-world.go
 
 # Set the default environment variables
 ENV MESSAGE "Welcome! From WebHook"
-=======
+
 ENV MESSAGE "Welcome! builds-lab."
 ENV HOME /go
 
