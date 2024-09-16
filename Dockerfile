@@ -5,11 +5,9 @@ FROM quay.io/projectquay/golang:1.17
 COPY src/hello-world.go /go/hello-world.go
 
 # Set the default environment variables
-<<<<<<< HEAD:Dockerfile
 ENV MESSAGE "Welcome! From WebHook"
 =======
 ENV MESSAGE "Welcome! builds-lab."
->>>>>>> 5104360e8104b6ed19fafa029afb5701d39a7022:labs-master/hello-world-go/Dockerfile
 ENV HOME /go
 
 # Set permissions to the /go folder (for OpenShift)
